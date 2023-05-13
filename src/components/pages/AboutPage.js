@@ -6,7 +6,7 @@ const AboutPage = () => {
       <div>
         <h1>About Me</h1>
         <div> 
-          <img className="me" src="../img/me.svg"/>
+          <img className="me" src="../img/me.svg" alt="me.png"/>
         </div>
         <div>
           <h2>How I started</h2>

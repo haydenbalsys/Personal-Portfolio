@@ -3,7 +3,7 @@ import React from "react";
 const AboutPage = () => {
   return (
     <section id="about">
-      <div>
+      <div id="background">
         <h1>About Me</h1>
         <div> 
           <img className="me" src="../img/me.svg" alt="me.png"/>

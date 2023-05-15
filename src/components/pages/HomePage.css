@@ -1,0 +1,24 @@
+.me {
+    height: 200px;
+}
+
+.text {
+    font-family: 'Yeseva One', cursive;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: bold;
+}
+
+.main {
+    border: none;
+    padding: 20px;
+}
+
+.col {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: none;
+}

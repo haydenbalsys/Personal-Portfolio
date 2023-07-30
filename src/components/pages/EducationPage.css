@@ -1,0 +1,42 @@
+.davis {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.moorpark {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.title {
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: bold;
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    height: 100vh; /* vh stands for viewport height. This will cover the entire height of the screen */
+    flex-direction: column; /* Change to row if you want side-by-side */
+}
+
+.col2 {
+    max-width: 500px; /* Set a maximum width for your columns */
+    flex: none; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em; /* Add some space around each column */
+}

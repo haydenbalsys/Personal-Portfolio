@@ -13,7 +13,9 @@ export default function Navigation() {
                 <Navbar bg="#F0EAD6" expand="sm">
                     <Navbar.Brand>
                         <Link to = {"/"}>
+                            <div className="image">
                             <img className="home" src={homeIcon} alt="Home" />
+                            </div>
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle  aria-controls="basic-navbar-nav" />

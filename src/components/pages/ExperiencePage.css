@@ -1,0 +1,58 @@
+.sa {
+    filter: invert(1);
+    height: 200px;
+    border-radius: 20px;
+}
+
+.amv {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.title {
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+
+.desc {
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: bold;
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column; 
+}
+
+.col2 {
+    max-width: 500px; 
+    flex: none; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em; 
+}
+
+.col3 {
+    max-width: 500px; 
+    flex: none; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em; 
+}

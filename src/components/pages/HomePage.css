@@ -1,24 +1,35 @@
 .me {
     height: 200px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 
 .text {
     font-family: 'Yeseva One', cursive;
+    text-align: center;
 }
-
 h1 {
     font-family: 'Yeseva One', cursive;
     font-weight: bold;
 }
 
 .main {
-    border: none;
-    padding: 20px;
-}
-
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    height: 100vh; /* vh stands for viewport height. This will cover the entire height of the screen */
+    flex-direction: column; /* Change to row if you want side-by-side */
+  }
+  
 .col {
-    width: 50%;
-    float: left;
-    padding: 20px;
-    border: none;
+    max-width: 500px; /* Set a maximum width for your columns */
+    flex: none; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em; /* Add some space around each column */
 }

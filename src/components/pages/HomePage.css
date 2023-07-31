@@ -17,19 +17,58 @@ h1 {
 }
 
 .main {
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-top: 50px;
     display: flex;
     align-items: center;
-    height: 100vh; /* vh stands for viewport height. This will cover the entire height of the screen */
     flex-direction: column; /* Change to row if you want side-by-side */
 }
   
 .col {
-    max-width: 500px; /* Set a maximum width for your columns */
+    max-width: 700px;
+    min-width: 100px;
     flex: none; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 1em; /* Add some space around each column */
+}
+
+.education,
+.experience,
+.about,
+.contact {
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.section {
+    position: relative;
+}
+
+.section::before {
+    content: "";
+    display: block;
+    height: 60px; /* Give a height approximating that of your navbar */
+    margin-top: -60px; /* Apply negative margin of the same value */
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.languages,
+.technologies {
+    display: flex;
+    justify-content: space-around;  /* Adjust spacing between items */
+    flex-wrap: wrap;  /* Allow items to wrap onto next line if there's not enough space */
+    margin-bottom: 20px;
+}
+
+.languages img,
+.technologies img {
+    width: 100px;  /* Set a width that's appropriate for your images */
+    height: auto;  /* Maintain aspect ratio */
+    max-width: 100%;  /* Ensure images don't overflow their containers */
+    object-fit: contain;  /* Ensure image scales properly */
 }

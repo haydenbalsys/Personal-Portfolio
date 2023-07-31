@@ -1,23 +1,20 @@
 import React from "react";
 
-const AboutPage = () => {
+export default function AboutPage() {
   return (
-    <section id="about">
-      <div id="background">
-        <h1>About Me</h1>
-        <div> 
-          <img className="me" src="../img/me.svg" alt="me.png"/>
+    <div className="header">
+        <div className="column1">
+          <h2>My Hobbies</h2>
+          <div>
+            <p></p>
+          </div>
         </div>
-        <div>
-          <h2>How I started</h2>
-          <p></p>
-          <h2>Where I'm Headed</h2>
-          <p></p>
+        <div className="column2">
+          <h2>What I'm Working on</h2>
+          <div>
+            <p></p>
+          </div>
         </div>
-      </div>
-    </section>
+    </div>
   );
 };
-
-export default AboutPage;
-

@@ -1,11 +1,11 @@
 .davis {
     height: 200px;
-    border-radius: 20px;
+    border-radius: 50vh;
 }
 
 .moorpark {
     height: 200px;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 .title {
@@ -27,12 +27,12 @@ h1 {
     margin-top: 50px;
     display: flex;
     align-items: center;
-    height: 100vh; /* vh stands for viewport height. This will cover the entire height of the screen */
     flex-direction: column; /* Change to row if you want side-by-side */
 }
 
 .col2 {
-    max-width: 500px; /* Set a maximum width for your columns */
+    max-width: 700px; /* Set a maximum width for your columns */
+    min-width: 100px;
     flex: none; 
     display: flex;
     flex-direction: column;

@@ -21,7 +21,7 @@ const ContactForm = () => {
   return (
     <div className='main'>
       <h1>Contact me!</h1>
-      <p>Ask me anything and I'll write back as soon as possible. Thanks!</p>
+      <p className='text'>Ask me anything and I'll write back as soon as possible. Thanks!</p>
       <form onSubmit={handleSubmit}>
         <div className="form-row">
           <div className="form-field">

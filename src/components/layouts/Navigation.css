@@ -6,6 +6,11 @@ body {
 
 .navbar {
   padding-left: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f0e9d4;
+  z-index: 9999;
 }
 
 .navbar a {
@@ -33,7 +38,6 @@ body {
   display: grid;
   place-items: center;
 }
-
 
 .home:hover {
   transform: scale(1.1)

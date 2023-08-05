@@ -22,7 +22,8 @@ h1 {
     margin-top: 50px;
     display: flex;
     align-items: center;
-    flex-direction: column; /* Change to row if you want side-by-side */
+    flex-direction: column; 
+    margin-bottom: 500px;
 }
   
 .col {
@@ -33,7 +34,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1em; /* Add some space around each column */
+    margin: 1em;
 }
 
 .education,

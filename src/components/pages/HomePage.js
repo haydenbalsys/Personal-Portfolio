@@ -16,7 +16,7 @@ export default function Home() {
                         <img className= "me" src={meIcon} alt="Hayden" />
                     </div>
                     <div className="col">
-                        <h1 className="title">Hi, I'm Hayden</h1>
+                        <h1 className="title">Hi, I'm Hayden 👋</h1>
                         <p className="text">
                         I am a computer science student at the University of California, Davis 
                         with a passion for software engineering. 
